@@ -1,0 +1,1164 @@
+body{
+	margin: 0;
+	
+	background: #CFF6E1;
+	height: 2000px;
+	
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.p {
+  text-align: center;
+  font-size: 5px;
+  margin: 0;
+  padding: 0;
+}
+#demo{
+margin: 0;
+padding: 0;
+}
+.main-header01{
+	width: 100%;
+	height: auto;
+	margin: 0;
+	 
+	z-index: 9999;
+	background: linear-gradient(to right bottom, #82f8ed, #97f1c7, #b5e7a3, #d5da88, #f3c97d);
+}
+
+.main-header01 a{
+	
+    
+
+	font-size: 20px;
+	text-decoration: none;
+	font-weight: 600;
+	color: #10DD76;
+}
+.main-header01 a img{
+	
+	
+}
+.main-header{
+	width: 100%;
+	height: auto;
+	
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: linear-gradient(to right bottom, #82f8ed, #97f1c7, #b5e7a3, #d5da88, #f3c97d);
+	z-index: 99999;
+	
+}
+
+
+.main-header a{
+	-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: #10DD76 ;
+	padding: 15px;
+	font-size: 20px;
+	text-decoration: none;
+	font-weight: 600;
+	color: red;
+	
+	
+}
+
+
+.header-items01{
+	
+	margin-left: 20px;
+	margin-top: 20px;
+	padding: 5px;
+	background: black;
+	position: absolute;
+	border: 2px solid rad;
+	border-radius: 10px;
+	z-index: 100;
+	
+}
+.header-items01 a{
+	
+	
+}
+.prayer-times{
+	float: right;
+	display: flex;
+	margin-right: 20px;
+	background: transparent;
+	
+	margin: 10px;
+	
+	border: 2px solid black;
+	border-radius: 10px;
+}
+.prayer-times p{
+	color: black;
+	font-size: 17px;
+	font-weight: 600;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	
+}
+.prayer-times p span{
+	color: red;
+	font-size: 18px;
+	font-weight: 600;
+}
+.prayer-times a{
+	color: #fff;
+	text-align: center;
+	background: black;
+    border: 2px solid red;
+	border-radius: 10px 5px 5px 10px;
+}
+.prayer-times a span{
+	font-weight: 700;
+	margin: 10px;
+}
+
+.Fajr, .johor, .Asor, .Magrib, .Isha{
+	background: black;
+	margin: 5px;
+	border: 2px solid #fff;
+	border-radius: 10px;
+}
+
+.Fajr p, .johor p, .Asor p, .Magrib p, .Isha p{
+	text-align: center;
+	margin: 2px;
+	color: #fff;
+	font-weight: 800;
+}
+.Fajr p span, .johor p span, .Asor p span, .Magrib p span, .Isha p span{
+	
+	font-weight: 700;
+}
+.header-items{
+	
+	margin-top: 25px;
+	float: right;
+}
+.header-items a{
+	
+	
+}
+.header-items a:hover{
+	border-bottom: ;
+	color: #fff;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background: black;
+	
+	border-radius: 10px;
+}
+.dropbtn {
+  
+  
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+	margin-top: 8px;
+  display: none;
+  position: absolute;
+  background-color: #222423;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 5;
+}
+
+.dropdown-content a {
+  color: #fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: black; color: #10DD76; }
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
+
+
+
+/* Create a column layout with Flexbox */
+.row2 {
+  display: flex;
+   margin: 0;
+  padding:0;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/* Left column (menu) */
+.left {
+  width: 20%; 
+ 
+  padding:0;
+  
+  
+  z-index: 99999;
+ 
+}
+
+.left h2 {
+  padding-left: 8px;
+}
+
+/* Right column (page content) */
+.right {
+  flex: 60%;
+   margin: 0;
+  padding:0;
+}
+.right2{
+	flex: 20%;
+	float: right;
+  margin: 0;
+  padding:0;
+	
+}
+/* Style the search box */
+#mySearch {
+  width: 100%;
+  font-size: 18px;
+  margin: 0;
+  padding: 10px;
+  border: 2px solid black;
+  background: linear-gradient(to right bottom, #82f8ed, #97f1c7, #b5e7a3, #d5da88, #f3c97d);
+  z-index: 2;
+}
+
+/* Style the navigation menu inside the left column */
+#myMenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  
+}
+#myMenu li{
+	
+	display: flex;
+}
+#myMenu li a {
+  padding: 12px;
+  text-decoration: none;
+  color: red;
+  display: block;
+  border-bottom: 1px solid green;
+  font-size: 14px;
+  font-weight: 400;
+  -webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: #10DD76 ;
+}
+
+#myMenu li a:hover {
+    -webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: #fff ;
+  color: #fff;
+}
+.mit{
+	
+	overflow: scroll;
+  height: 470px;
+   
+}
+.mit li a{
+	color: ;
+}
+.mit::-webkit-scrollbar{
+	
+	width: 8px;
+	box-sizing: border-box;
+	height: 0;
+	
+}
+
+.mit::-webkit-scrollbar-track{
+	
+	background: none;
+}
+
+.mit::-webkit-scrollbar-thumb{
+	
+	background: #011C0E;
+	border-radius: 6px;
+	transition: background .2 linear;
+	transition-property: background-color;
+	transition-duration: 0.2s;
+	transition-timing-function: linear;
+	
+	transition-delay: 0s;
+	
+	
+}
+
+div.scrollmenu23 {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu23 a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu23 a:hover {
+  background-color: #777;
+}
+
+
+.scrollmenu23::-webkit-scrollbar{
+	
+	width: 8px;
+	box-sizing: border-box;
+	height: 10px;
+	
+}
+
+.scrollmenu23::-webkit-scrollbar-track{
+	
+	background: none;
+}
+
+.scrollmenu23::-webkit-scrollbar-thumb{
+	
+	background: linear-gradient(to right bottom, #82f8ed, #97f1c7, #b5e7a3, #d5da88, #f3c97d);
+	border-radius: 6px;
+	transition: background .2 linear;
+	transition-property: background-color;
+	transition-duration: 0.2s;
+	transition-timing-function: linear;
+	
+	transition-delay: 0s;
+	
+	
+}
+
+
+
+
+
+
+
+.news-part{
+	background: #04AA6D;
+  color: white;
+	width: 100%;
+}
+.news-part p{
+	margin: 0;
+	padding: 10px;
+	padding-left: 0;
+	background-color: #fff;
+	
+	color:black;
+	font-weight: 600;
+	
+	
+}
+
+.scroll-items{
+	
+	display: flex;
+	font-size: 15px;
+}
+.news-part p a{
+	margin: 5px;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 600;
+	color: green;
+	
+	
+}
+.news-part p a:hover{
+	color: red;
+	font-size: 19px;
+	
+}
+.news{
+	
+	margin: 0;
+	padding: 0;
+	width: 50%;
+	background: #fff;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+.poster-site{
+	 width: 60%;
+	 height: auto;
+	
+}
+
+
+
+.header-items01, .poster-site{
+	
+	display: inline-block;
+}
+
+.slider img{
+	width: auto;
+	
+}
+
+.slider{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	
+	height: auto;
+}
+.slider2, .time-zoon{
+	
+	display: inline-table;
+}
+.time-zoon{
+	
+	float: right;
+}
+
+.time-zoon p{
+	padding: 0;
+	margin: 0;
+	background: #fff;
+	text-align: center;
+	background: linear-gradient(to right bottom, #82f8ed, #97f1c7, #b5e7a3, #d5da88, #f3c97d);
+}
+// .goog-te-banner-frame {display:none;} // Don't show Google Topbar
+// #goog-gt-tt {display:none!important;visibility:hidden!important;}
+
+#google_translate_element {
+  position: absolute;
+  padding: 0;
+  top: 10px;
+  left: 350px!important;
+  // z-index: 99999;
+  visibility: hidden;
+}
+.goog-te-gadget {
+  font-family: Roboto, 'Open Sans', sans-serif!important;
+  text-transform: uppercase;
+}
+.goog-te-gadget-simple  {
+  background-color: transparent!important;
+  border: 2px solid black !important;
+  padding: 0px!important;
+  border-radius: 4px!important;
+  font-size: 2rem!important;
+  line-height:2rem!important;
+  display: inline-block;
+  cursor: pointer;
+  zoom: 1;
+}
+.goog-te-menu2 {
+  max-width: 100%;
+}
+.goog-te-menu-value {
+  color: green !important;
+  font-size: 15px!important;
+  margin-right: 5px;
+    &:before {
+    font-family: 'Material Icons';
+    content: "\E927";
+    margin-right: 16px;
+    font-size: 10px!important;
+    
+    vertical-align: -10px;
+    // width:32px!important;
+  } 
+}
+.goog-te-menu-value span:nth-child(5) {
+  display:none;
+}
+.goog-te-menu-value span:nth-child(3) {
+  border:none!important;
+  font-family: 'Material Icons';
+  &:after {
+    font-family: 'Material Icons';
+    content: "\E5C5";
+    font-size: 1.5rem;
+    vertical-align: -6px;
+  }  
+}
+
+.goog-te-gadget-icon {
+    background-image: url(https://placehold.it/32)!important;
+    background-position: 0px 0px;
+    height: 32px!important;
+    width: 32px!important;
+    margin-right: 8px!important;
+    
+}
+
+// ============ HIDE TOP BAR ============ 
+.goog-te-banner-frame.skiptranslate {display: none!important;} 
+body {top: 0px!important;}
+
+/* ================================== *\
+    Mediaqueries
+\* ================================== */
+@media (max-width: 667px) {
+	#google_translate_element {
+		bottom: calc(100% - 50% - 53px);
+		left: 16px!important;
+		width: 100%!important;
+		goog-te-gadget {
+			width:100%!important;
+		}
+		.skiptranslate {
+			width:100%!important;			
+		}
+		.goog-te-gadget-simple {
+			width: calc(100% - 32px)!important;
+			text-align: center;
+		}	
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.scroll-items button:hover {
+  opacity: 0.8;
+  
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+
+#id01{
+	width: 60%;
+	height: auto;
+	margin-top: 100px;
+	margin-left: 300px;
+}
+#id02{
+	width: 60%;
+	height: auto;
+	margin-top: 100px;
+	margin-left: 300px;
+}
+#id03{
+	width: 60%;
+	height: auto;
+	margin-top: 100px;
+	margin-left: 300px;
+}
+.modal {
+	width: 50%;
+	height: auto;
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 99999; /* Sit on top */
+  left: 0;
+  top: 0;
+   /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: red; /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+
+
+#mydiv {
+  position: absolute;
+  z-index: 9;
+  background-color: transparent;
+  text-align: center;
+  border: 1px solid #d3d3d3;
+}
+
+#mydivheader {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: black;
+  color: #fff;
+}
+
+
+.digital-clock{
+	
+	margin: 20px;
+}
+
+.scroll-items button{
+	font-size: 14px;
+	color: #fff;
+	font-weight: 800;
+}
+
+.coming-soon{
+	width: 20%;
+	background: green;
+	
+}
+.upcoming-islamic-days{
+	
+	background: green;
+	padding: 20px;
+	padding-top: 0;
+	margin: 0;
+}
+
+.prayer-times-city{
+	display: none;
+	float: right;
+	width: 50%;
+	height: auto;
+	
+	margin: 20px;
+	margin-right: 20px;
+	background: linear-gradient(to right bottom, #82f8ed, #97f1c7, #b5e7a3, #d5da88, #f3c97d);
+}
+
+.part01{
+	
+	width: 100%;
+	height: 700px;
+	
+}
+.prayer-times-city2{
+	display: none;
+	float: right;
+	width: 50%;
+	height: auto;
+	margin-top: 0px;
+	margin-left: 20px;
+	margin-right: 20px;
+	background: linear-gradient(to right bottom, #82f8ed, #97f1c7, #b5e7a3, #d5da88, #f3c97d);
+}
+.time-body{
+	
+	margin: 20px;
+}
+.time-header{
+	
+	padding-top: 5px;
+	padding-bottom: 20px;
+}
+.time-header p{
+	
+	color: black;
+	font-size: 20px;
+	margin-bottom: 0;
+	font-weight: 800;
+}
+
+.time-header p a{
+	float: right;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	color: #fff;
+	font-size: 15px;
+}
+
+.time-header a{
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	color: green;
+}
+.Upcoming-Prayer{
+	background: black;
+}
+.Upcoming-Prayer h4{
+    padding-top: ;
+	font-size: 20px;
+	text-align: center;
+	color:#fff;
+	 margin-bottom: 0;
+}
+.Upcoming-Prayer p{
+	margin-top: 0;
+	 padding-top: 0;
+	text-align: center;
+	margin: 0;
+	color:#61E8E0;
+	font-size: 17px;
+	font-weight: bold;
+	 padding-bottom: 5px;
+}
+.Upcoming-Prayer p span{
+	
+	padding-left: 5px;
+	color: red;
+}
+.Upcoming-Prayer2{
+	background: black;
+}
+.Upcoming-Prayer2 h4{
+    
+	padding-bottom: 5px;
+	text-align: center;
+	color:#fff;
+	font-size: 20px;
+}
+.Upcoming-Prayer2 h4 span{
+	padding-left: 4px;
+	color: red;
+}
+.Upcoming-Prayer2 p{
+	font-size: 15px;
+	font-weight: 600;
+	text-align: center;
+	margin: 0;
+	color:#fff;
+	 padding-top: 5px;
+}
+.tody-prayer-time{
+	margin: 0;
+	padding-bottom: 0;
+	background: red;
+}
+.tody-prayer-time p{
+	
+	text-align: center;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+
+.prayer-times-list{
+	display: flex;
+	
+	padding-top: 0;
+	padding-bottom: 10px;
+	overflow-x: scroll;
+	
+}
+.prayer-times-list::-webkit-scrollbar{
+	
+	width: 2px;
+	height: 10px;
+	
+	border-radius: 50px;
+}
+
+.prayer-times-list::-webkit-scrollbar-thumb:hover{
+	background: red;
+	
+	
+}
+.prayer-times-list::-webkit-scrollbar-track{
+	
+	background: black;
+}
+
+.prayer-times-list::-webkit-scrollbar-thumb{
+	
+	background:  linear-gradient(235deg,#00FF59,#FFA400,#FF001B);
+	border-radius: 50px;
+	transition: background .2 linear;
+	transition-property: background-color;
+	transition-duration: 0.2s;
+	transition-timing-function: linear;
+	
+	transition-delay: 0s;
+	
+	
+}
+::-webkit-scrollbar{
+	
+	width: 10px;
+	height: 10px;
+	
+	border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover{
+	background: red;
+	
+	
+}
+::-webkit-scrollbar-track{
+	
+	background: black;
+}
+
+::-webkit-scrollbar-thumb{
+	
+	background:  linear-gradient(235deg,#00FF59,#FFA400,#FF001B);
+	border-radius: 50px;
+	transition: background .2 linear;
+	transition-property: background-color;
+	transition-duration: 0.2s;
+	transition-timing-function: linear;
+	
+	transition-delay: 0s;
+	
+	
+}
+.prayer-times-list p{
+	font-size: 17px;
+	font-weight: 600;
+	color: #fff;
+	margin: 2px;
+	
+	padding: 10px;
+	border: 2px solid red;
+	border-radius: 10px;
+	background: black;
+}
+
+.prayer-times-list p span{
+	
+	color: red;
+}
+
+
+
+.surah{
+	display: none;
+	margin: 20px;
+	padding: 20px;
+	
+	height: auto;
+	background: linear-gradient(to right bottom, #82f8ed, #97f1c7, #b5e7a3, #d5da88, #f3c97d);
+	
+}
+.surah-header{
+	margin: 10px;
+	
+	
+}
+.surah-header p{
+	text-align: center;
+	font-size: 25px;
+	font-weight: 700;
+	color: black;
+}
+.surah-list{
+	display: flex;
+	
+	padding-top: 0;
+	padding-bottom: 10px;
+	overflow-x: scroll;
+}
+
+.surah-list p{
+	
+	font-size: 22px;
+	font-weight: 600;
+	color: #fff;
+	margin: 2px;
+	
+	padding: 25px;
+	border: 2px solid red;
+	border-radius: 10px;
+	background: black;
+}
+.surah-list p a{
+	text-decoration: none;
+	color: #fff;
+}
+.surah-list p a span{
+	font-size: 16px;
+	font-weight: 500;
+}
+.surah-list p:hover{
+	transform: scale(1.09);
+}
+
+
+
+.title-bar{
+	
+	width: 98%;
+	margin-top: 20px;
+	margin-left: 20px;
+	background: #e9edf3;
+}
+.title-bar p{
+	font-size: 20px;
+	font-weight: 700;
+	padding: 10px;
+}
+
+
+.movies-item3{
+	 
+	 
+	width: 98%;
+	margin-top: 20px;
+	margin-left: 20px;
+	background-color: #e9edf3;
+	
+}
+.movies-item3 a{
+	text-decoration: none;
+	
+}
+.cs-hidden{
+	border: 2px solid #ddd;
+	display: flex;
+	overflow-x: auto;
+}
+
+.cs-hidden::-webkit-scrollbar{
+	
+	width: 0;
+}
+
+.item-a, .item-b, .item-c, .item-d, .item-e, .item-f, .item-g, .item-h, .item-i{
+	padding: 5px;
+	display: inline-block;
+}
+
+
+.box{
+	margin: 0;
+	padding: 0;
+	width: 220px;
+	box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+	border-radius: 10px;
+	overflow: hidden;
+	
+	position: relative;
+}
+
+.img-box{
+	
+	height: 250px;
+	
+}
+
+.img-box img{
+	
+	width: 100%;
+	height: 100%;
+	
+	object-fit: cover;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.description-box{
+	
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	font-family: calibri;
+	background-color: red;
+	
+}
+
+
+.description-type{
+	
+	display: flex;
+	flex-direction: column;
+	
+	
+}
+
+.description-type a{
+	
+	color: #222222;
+	margin: 5px 0px;
+	
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	padding-right: 8px;
+}
+
+.description-type span{
+	
+	color: rgba(26,26,26,0.5);
+	
+}
+.year{
+	
+	color: black;
+	font-weight: 600;
+	font-size: 1.1rem;
+	font-family: poppins;
+	letter-spacing: 0.5px;
+}
+
+.overlayer{
+	
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	width: 100%;
+	height: 100%;
+	background-color: rgba(92,95,236,0.6);
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	
+}
+
+.Watch-btn{
+	
+	width: 100px;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	background-color: red;
+	color: #252525;
+	font-weight: 700;
+	letter-spacing: 1px;
+	font-family: calibri;
+	border-radius: 50px;
+	box-shadow: 2px 2px 30px rgba(0,0,0,.02);
+}
+
+.Watch-btn:hover{
+	color: #ffffff;
+	background-color: black;
+	transition: all ease 0.3s;
+}
+
+.overlayer{
+	
+	visibility: hidden;
+}
+
+.img-box:hover .overlayer{
+	
+	visibility: visible;
+	animation: fade 0.5s;
+}
+
+@Keyframes fade{
+	0%{
+		opacity: 0;
+		
+	}
+	100%{
+		opacity: 1;
+	}
+}
+	
+	

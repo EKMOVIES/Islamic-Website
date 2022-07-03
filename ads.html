@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<title>Ads</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/ads.css">
+<style>
+.mySlides {display:none;}
+body{
+   margin: 0;
+   padding: 0;
+}
+.w3-content w3-section{
+   padding: 0;
+   margin: 0;
+}
+::-webkit-scrollbar{
+	
+	width: 0px;
+	box-sizing: border-box;
+	height: 0;
+	
+}
+
+::-webkit-scrollbar-track{
+	
+	background: none;
+}
+
+::-webkit-scrollbar-thumb{
+	
+	background: #011C0E;
+	border-radius: 6px;
+	transition: background .2 linear;
+	transition-property: background-color;
+	transition-duration: 0.2s;
+	transition-timing-function: linear;
+	
+	transition-delay: 0s;
+	
+	
+}
+</style>
+<body>
+
+
+
+<div class="w3-content w3-section" style="width:100%; height: auto;">
+   <img class="mySlides w3-animate-top" src="images/islamic burqa3.png" style="width:100%">
+    <img class="mySlides w3-animate-bottom" src="images/wwww.png" style="width:100%">
+  <img class="mySlides w3-animate-top" src="images/islamic burqa.png" style="width:100%">
+  <img class="mySlides w3-animate-bottom" src="images/islamic burqa (1).png" style="width:100%">
+ 
+ 
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2500);    
+}
+</script>
+
+</body>
+</html>
